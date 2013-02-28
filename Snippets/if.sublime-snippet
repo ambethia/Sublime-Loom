@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[if (${1:true}) {
+  ${0}
+};]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.loomscript</scope>
+    <description>if</description>
+</snippet>

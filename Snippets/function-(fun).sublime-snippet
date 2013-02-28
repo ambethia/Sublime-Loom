@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:public} function ${2:functionName} (${3:args}):${3:void} {
+	${0:// ...}
+}]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.loomscript</scope>
+    <description>Function</description>
+</snippet>

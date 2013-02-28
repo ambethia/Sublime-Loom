@@ -1,0 +1,21 @@
+{
+    "name": "Comments", 
+    "scope": "source.loomscript", 
+    "settings": {
+        "shellVariables": [
+            {
+                "name": "TM_COMMENT_START", 
+                "value": "// "
+            }, 
+            {
+                "name": "TM_COMMENT_START_2", 
+                "value": "/*"
+            }, 
+            {
+                "name": "TM_COMMENT_END_2", 
+                "value": "*/"
+            }
+        ]
+    }, 
+    "uuid": "1d0c39d5-a38f-48e5-a7f1-c82e5095a167"
+}
