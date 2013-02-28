@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[${1:public} function ${2:functionName} (${3:args}):${3:void} {
+    <content><![CDATA[${1:public} function ${2:functionName} (${3:args}):${4:void} {
 	${0:// ...}
 }]]></content>
     <tabTrigger>fun</tabTrigger>
