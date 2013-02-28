@@ -11,4 +11,4 @@ Until Package Control is setup:
 
 ## Pull Requests Welcome!
 
-There's lots to be done. Changes to the `tmLanguage` file are made through the JSON file via [AAAPackageDec](https://bitbucket.org/guillermooo/aaapackagedev)
+There's lots to be done. Changes to the `tmLanguage` file are made through the JSON file via [AAAPackageDev](https://bitbucket.org/guillermooo/aaapackagedev).
