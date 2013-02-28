@@ -6,7 +6,7 @@ A rough start for what could be a nicely polished Sublime Text bundle for Loom. 
 
 Until Package Control is setup:
 
-    cd "~/Library/Application Support/Sublime Text 2/Packages/"
+    cd "~/Library/Application Support/Sublime Text 2/Packages/" # Or your platform's equivalent
     git clone https://github.com/ambethia/Sublime-Loom.git Loom
 
 ## Pull Requests Welcome!
