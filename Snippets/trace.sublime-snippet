@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+trace($1);
+]]></content>
+    <tabTrigger>trace</tabTrigger>
+    <scope>source.loomscript</scope>
+</snippet>

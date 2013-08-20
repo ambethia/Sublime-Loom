@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+var $1 = new WebView();
+$1.x = 0;
+$1.y = 0;
+$1.width = stage.stageWidth;
+$1.height = stage.stageHeight;
+$1.request("http://google.com");
+$1.show();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>webview</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+map = new TMXTileMap();
+map.load("assets/action_map_1.tmx");
+for(var i:int = 0; i < map.layers().length; i++)
+{
+    map.layers()[i].getHolder().scale = .5;
+    map.addChild(map.layers()[i].getHolder());
+}
+stage.addChild(map);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tmx</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

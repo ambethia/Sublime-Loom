@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+function keyDownHandler(event:KeyboardEvent):void
+{
+    var keycode = event.keyCode;
+    if(keycode == LoomKey.W)
+        sprite.y -= 10;
+    if(keycode == LoomKey.S)
+        sprite.y += 10;
+    if(keycode == LoomKey.A)
+        sprite.x -= 10;
+    if(keycode == LoomKey.D)
+        sprite.x += 10;
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>keyevent</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>
