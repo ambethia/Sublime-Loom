@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+$1.addEventListener( TouchEvent.TOUCH, function(e:TouchEvent) {
+        var touch = e.getTouch($1, TouchPhase.BEGAN);
+        if (touch)
+        {
+            e.stopImmediatePropagation();
+            $2
+        }
+    } );
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>touchevent</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

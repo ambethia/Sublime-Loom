@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+var $1 = new Quad(128, 128, 0xFF00FF00);
+$1.center();
+$1.x = 0;
+$1.y = 0;
+stage.addChild($1);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>quad</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

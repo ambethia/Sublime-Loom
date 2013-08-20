@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+var req = new HTTPRequest("http://www.theengine.co/api/v1/session");
+req.method = "POST";
+req.body = "email=" + _email.text + "&password=" + _password.text;
+req.setHeaderField("foo", "bar");
+req.onSuccess += function(v:String) {
+    $1
+};
+req.onFailure += function(v:String) {
+    trace("Error:", v);
+};
+req.send();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>httprequest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

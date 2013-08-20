@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+var sheet = Texture.fromAsset("assets/spritesheet.png");
+var spriteWidth:int = 60, spriteHeight:int = 60;
+var spriteCount:int = 30;
+var spriteRowCount:int = 5;
+var frames = new Vector.<Texture>();
+for(var i:int; i<spriteCount; i++)
+{
+    var spriteX:int = i % spriteRowCount;
+    var spriteY:int = Math.floor(i / spriteRowCount);
+    frames.push(Texture.fromTexture(sheet,
+        new Rectangle(spriteX * spriteWidth,
+                      spriteY * spriteHeight,
+                      spriteWidth, spriteHeight)));
+}
+var clip = new MovieClip(frames, 12);
+Loom2D.juggler.add(clip);
+clip.play();
+clip.center();
+clip.x = stage.stageWidth / 2;
+clip.y = stage.stageHeight / 2;
+stage.addChild(clip);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>movieclip</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>

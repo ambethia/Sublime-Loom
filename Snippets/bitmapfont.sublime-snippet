@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+var font = BitmapFont.load("assets/Curse-hd.fnt");
+var fontSprite = font.createSprite(480, 100, "Loom2D Copter is under construction!");
+stage.addChild(fontSprite);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bitmapfont</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.loomscript</scope>
+</snippet>
